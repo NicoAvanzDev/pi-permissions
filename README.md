@@ -1,4 +1,4 @@
-# pi-permissions
+# pi-permissions [![npm version](https://img.shields.io/npm/v/pi-permissions)](https://www.npmjs.com/package/pi-permissions) [![license](https://img.shields.io/npm/l/pi-permissions)](./LICENSE)
 
 A [pi](https://github.com/badlogic/pi-mono) extension that provides configurable allow/deny permission rules for tool calls — similar to Claude's permission system.
 
