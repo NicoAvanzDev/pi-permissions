@@ -14,7 +14,8 @@ A [pi](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent) exte
 pi install npm:pi-permissions
 ```
 
-Alternative install methods
+<details>
+<summary>Alternative install methods</summary>
 
 From the public git repo:
 
@@ -33,6 +34,8 @@ Load without installing:
 ```bash
 pi --no-extensions -e npm:pi-permissions
 ```
+
+</details>
 
 ## Quick start
 
