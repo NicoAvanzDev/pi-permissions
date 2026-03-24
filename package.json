@@ -1,6 +1,6 @@
 {
   "name": "pi-permissions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configurable allow/deny permission rules for pi tool calls — control which bash commands, file reads, writes, and edits the agent can perform.",
   "keywords": [
     "pi-package",
