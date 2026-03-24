@@ -1,6 +1,6 @@
 # pi-permissions
 
-A [pi](https://github.com/badlogic/pi) extension that provides configurable allow/deny permission rules for tool calls — similar to Claude's permission system.
+A [pi](https://github.com/badlogic/pi-mono) extension that provides configurable allow/deny permission rules for tool calls — similar to Claude's permission system.
 
 ## Install
 
