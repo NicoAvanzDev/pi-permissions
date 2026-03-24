@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { evaluate, parseRules } from "../extensions/rules.ts";
+import { evaluate, parseRules } from "../rules.ts";
 
 describe("evaluate", () => {
   describe("deny rules", () => {
