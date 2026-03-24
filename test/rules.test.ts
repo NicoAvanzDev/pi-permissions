@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { globToRegex, parseRule } from "../extensions/rules.ts";
+import { globToRegex, parseRule } from "../rules.ts";
 
 describe("globToRegex", () => {
   it("matches exact string", () => {

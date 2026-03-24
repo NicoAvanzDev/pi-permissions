@@ -20,7 +20,7 @@
   },
   "files": [
     "index.ts",
-    "extensions/rules.ts",
+    "rules.ts",
     "README.md"
   ],
   "type": "module",
