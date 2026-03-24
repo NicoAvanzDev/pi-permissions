@@ -1,6 +1,6 @@
 {
   "name": "pi-permissions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configurable allow/deny permission rules for pi tool calls — control which bash commands, file reads, writes, and edits the agent can perform.",
   "keywords": [
     "pi-package",
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/NicoAvanzDev/pi-permissions.git"
   },
   "files": [
-    "extensions/permissions.ts",
+    "index.ts",
     "extensions/rules.ts",
     "README.md"
   ],
@@ -42,6 +42,6 @@
     "@mariozechner/pi-coding-agent": "*"
   },
   "pi": {
-    "extensions": ["./extensions/permissions.ts"]
+    "extensions": ["./index.ts"]
   }
 }

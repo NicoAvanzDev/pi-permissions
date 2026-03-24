@@ -1,9 +1,9 @@
 import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { PermissionsConfig } from "./rules.ts";
-import { evaluate, parseRules } from "./rules.ts";
-import type { ParsedRule } from "./rules.ts";
+import type { PermissionsConfig } from "./extensions/rules.ts";
+import { evaluate, parseRules } from "./extensions/rules.ts";
+import type { ParsedRule } from "./extensions/rules.ts";
 
 async function loadConfig(cwd: string): Promise<PermissionsConfig> {
   const paths = [join(cwd, ".pi", "permissions.json")];
