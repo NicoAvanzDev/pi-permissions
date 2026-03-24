@@ -2,11 +2,40 @@
   "name": "pi-permissions",
   "version": "1.0.0",
   "description": "Configurable allow/deny permission rules for pi tool calls — control which bash commands, file reads, writes, and edits the agent can perform.",
-  "keywords": ["pi-package"],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "permissions",
+    "security",
+    "allow-deny"
+  ],
+  "homepage": "https://github.com/NicoAvanzDev/pi-permissions#readme",
+  "bugs": {
+    "url": "https://github.com/NicoAvanzDev/pi-permissions/issues"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NicoAvanzDev/pi-permissions"
+    "url": "git+https://github.com/NicoAvanzDev/pi-permissions.git"
+  },
+  "files": [
+    "extensions/permissions.ts",
+    "README.md"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "echo 'nothing to build'",
+    "test": "vitest run",
+    "lint": "oxlint",
+    "fmt": "oxfmt \"**/*.ts\"",
+    "fmt:check": "oxfmt --check \"**/*.ts\"",
+    "check": "vitest run && oxlint && oxfmt --check \"**/*.ts\"",
+    "prepublishOnly": "npm pack --dry-run"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "vitest": "^4.1.0"
   },
   "peerDependencies": {
     "@mariozechner/pi-coding-agent": "*"
